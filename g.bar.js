@@ -349,7 +349,7 @@
                         L.translate((barwidth - bb.width)/2, 1);
 
                         if (bb.x - 7 < l) {
-                            L.remove();
+                            //L.remove();
                         } else {
                             this.labels.push(L);
                             l = bb.x + bb.width;
